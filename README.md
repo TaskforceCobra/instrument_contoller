@@ -2,7 +2,7 @@
 
 A professional Windows desktop application for controlling Digital Multimeters (DMMs) via GPIB communication using SCPI commands.
 
-## 🎯 Features
+## Features
 
 - **Real-time DMM Control**: Interface with multiple DMMs via GPIB using SCPI commands
 - **Interactive Data Table**: Editable table with dropdowns for measurement functions
@@ -11,7 +11,7 @@ A professional Windows desktop application for controlling Digital Multimeters (
 - **Data Export**: Export to CSV, JSON, and TXT formats
 - **Error Handling**: Comprehensive error logging and user feedback
 
-## 🚀 Installation
+## Installation
 
 1. **Clone the repository**:
    ```bash
@@ -29,14 +29,14 @@ A professional Windows desktop application for controlling Digital Multimeters (
    python main.py
    ```
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.9 or higher
 - Windows OS
 - GPIB hardware interface (National Instruments GPIB-USB, etc.)
 - Compatible DMM devices
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 instrument_contoller/
@@ -59,7 +59,7 @@ instrument_contoller/
 └── README.md
 ```
 
-## 🔧 Usage
+## Usage
 
 1. **Connect DMMs**: Ensure your DMMs are connected via GPIB
 2. **Add Devices**: Use the device table to add and configure DMMs
@@ -68,7 +68,7 @@ instrument_contoller/
 5. **Monitor Data**: View live graphs and data in the table
 6. **Export Data**: Save collected data in your preferred format
 
-## 📊 Supported Measurement Functions
+## Supported Measurement Functions
 
 - DC Voltage
 - AC Voltage
@@ -78,22 +78,22 @@ instrument_contoller/
 - Frequency
 - Temperature
 
-## 🔌 Supported Export Formats
+## Supported Export Formats
 
 - CSV (Comma Separated Values)
 - JSON (JavaScript Object Notation)
 - TXT (Plain Text)
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 - **GPIB Connection Issues**: Ensure proper GPIB drivers are installed
 - **Device Not Found**: Check GPIB addresses and connections
 - **Permission Errors**: Run as administrator if needed
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit pull requests or open issues.
